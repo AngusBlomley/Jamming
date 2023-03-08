@@ -1,6 +1,12 @@
-# Getting Started with Create React App
+# Jamming, a Spotify playlist creater that links to spotify account.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This App was created using React. Utilizing the spotify API.
+
+**The search button is required to be clicked twice**
+=====================================================
+You can view the App at this URL:
+http://aggressive-power.surge.sh/
+=====================================================
 
 ## Available Scripts
 
