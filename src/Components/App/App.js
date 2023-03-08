@@ -9,7 +9,7 @@ import './Playlist.css';
 
 import Spotify from '../../util/Spotify';
 
-function App(props) {
+export function App(props) {
   const [searchResults, setSearchResults] = useState([]);
 
   const [playlist, setPlaylist] = useState({
@@ -83,7 +83,7 @@ function App(props) {
   );
 }
 
-function Playlist(props) {
+export function Playlist(props) {
 
   const handleNameChange = (event) => {
     props.onNameChange(event.target.value);
@@ -104,7 +104,7 @@ function Playlist(props) {
   );
 }
 
-function SearchResults(props) {
+export function SearchResults(props) {
   return (
     <div className="SearchResults">
       <h2>Results</h2>
@@ -115,7 +115,7 @@ function SearchResults(props) {
   );
 }
 
-function TrackList(props) {
+export function TrackList(props) {
   return (
     <div className="TrackList">
       {props.tracks.map(track => (
@@ -129,7 +129,7 @@ function TrackList(props) {
   );
 }
 
-function Track(props) {
+export function Track(props) {
   const { track } = props;
 
   function renderAction() {
@@ -159,7 +159,7 @@ function Track(props) {
   );
 }
 
-function SearchBar(props) {
+export function SearchBar(props) {
 
   const [term, setTerm] = useState('');
 
