@@ -1,4 +1,4 @@
-The application is built using the React framework. The primary function of the application is to allow users to create and manage their music playlists on the Spotify platform. The application provides a user-friendly interface for creating new playlists, editing existing ones, and adding songs to them. The Spotify API is utilized to enable secure authentication with a user's Spotify account. Users can search for and add songs to their playlists, as well as reorder and remove songs. The completed playlist can be saved to the user's Spotify account using the Spotify API. The application seamlessly integrates with the Spotify platform to enable access to the playlist from any device.
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
